@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardenPlotProgram", "GardenPlotProgram\GardenPlotProgram.csproj", "{EA3FFCEC-C635-4CD4-9C8A-BBF37CF6A3B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardenPlotClassLibrary", "GardenPlotClassLibrary\GardenPlotClassLibrary.csproj", "{ADF8AD44-EE72-488E-A175-AF531274AD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FF1370A-E90D-41A6-A93E-BC4A3287261D}"
+	ProjectSection(SolutionItems) = preProject
+		GardenPlotTEXT.txt = GardenPlotTEXT.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA3FFCEC-C635-4CD4-9C8A-BBF37CF6A3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3FFCEC-C635-4CD4-9C8A-BBF37CF6A3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3FFCEC-C635-4CD4-9C8A-BBF37CF6A3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3FFCEC-C635-4CD4-9C8A-BBF37CF6A3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF8AD44-EE72-488E-A175-AF531274AD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF8AD44-EE72-488E-A175-AF531274AD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF8AD44-EE72-488E-A175-AF531274AD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF8AD44-EE72-488E-A175-AF531274AD76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
