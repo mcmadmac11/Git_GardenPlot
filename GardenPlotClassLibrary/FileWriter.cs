@@ -10,15 +10,10 @@ namespace GardenPlotProgram
 
     public class FileWriter
     {
-        public void WriteToFile()
+        public void ReadFromFile()
         {
-            StreamWriter sw = new StreamWriter("PlotMap.txt");
-            sw.Write("Hello, ");
-
-
-
-            sw.Close();
-
+            StreamReader reader = new StreamReader("PlotMap.txt");
+            Console.Write(reader.ReadToEnd());
         }
     }
 }
