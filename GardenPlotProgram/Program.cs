@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 namespace GardenPlotProgram
 {
     class Program
@@ -18,8 +19,8 @@ namespace GardenPlotProgram
             PlotDimensions plot1 = new PlotDimensions();
             PlotDimensions plot2 = new PlotDimensions();
             
-            plot1.dimensionList(2,2,4,4);
-            plot2.dimensionList(4, 9, 3, 7);
+            //plot1.dimensionList(2,2,10,10);
+            //plot2.dimensionList(4, 9, 3, 7);
 
             //new FileWriter();
 

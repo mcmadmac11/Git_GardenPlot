@@ -30,11 +30,7 @@ namespace GardenPlotProgram
 }
 
 
-//        public IEnumerable<string> PlotCompare1(string x1, string y1)
-//        {
-//            PlotCompare1(x1, y1);
-            
-//        }
+
 
 //        public List<string> PlotCompare2;
 //        bool BoxesIntersect(const Box2D &a, const Box2D &b)
@@ -46,5 +42,5 @@ namespace GardenPlotProgram
 //            return true; // boxes overlap
 //        }
 //
-    
+
 //}

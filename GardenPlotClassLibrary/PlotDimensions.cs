@@ -1,11 +1,15 @@
-﻿namespace GardenPlotProgram
+﻿    using System.Collections.Generic;
+
+namespace GardenPlotProgram
 {
-    using System.Collections.Generic;
+
 
 
     public class PlotDimensions
     {
 
+        public int[] XYPlotPointArray = new int[2];
+        public int[] X1Y1PlotPointArray = new int[2];
 
         public List<string> DimensionList = new List<string>();
         public List<string> dimensionList(string x, string y, string width, string height)
@@ -19,17 +23,20 @@
 
             return DimensionList;
         }
+
+
+        
+
         public List<string> dimensionList(int x, int y, int width, int height)
         {
+
             return dimensionList(x.ToString(), y.ToString(), width.ToString(), height.ToString());
 
         }
 
-
-
         public PlotDimensions()
         {
-            this.DimensionList = new List<string>();
+            DimensionList = new List<string>();
         }
 
 

@@ -7,17 +7,8 @@ using System.Threading.Tasks;
 
 namespace GardenPlotProgram
 {
-    public class Fencing
+    public class Fencing 
     {
-
-       public int GetPlotPerimeter(int _x, int _y, int _width, int _height)
-        {
-
-            int perimeterOfPlot = _width * _height;
-
-            return perimeterOfPlot;
-            
-        }
 
 
     }
